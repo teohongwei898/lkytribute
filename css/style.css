@@ -1,0 +1,70 @@
+body {
+  background-color: white;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+.div {}
+
+.row {
+  background-color: #EEEEEE;
+  margin: 5% 10%;
+  padding: 3%;
+}
+
+.placeholder {
+  height: 2rem;
+}
+
+.text-header {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 6rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left !important,
+}
+
+.timeline {
+  padding: 0 10%;
+  line-height: 3rem;
+}
+
+.year {
+  font-weight: bold;
+}
+
+blockquote {
+  padding: 0 10%;
+  line-height: 3rem;
+  font-weight: 300;
+  font-size:2.5rem;
+  text-align: left;
+}
+
+#quote-footer {
+  text-align: right;
+}
+
+.footnote {
+  font-size: 2.5rem;
+}
+
+.panel-default {
+  padding-bottom: 40px;
+}
+
+/* Animation */
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+  font-weight:bold;
+}
